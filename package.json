@@ -23,14 +23,12 @@
     "demos/",
     "dist/",
     "src/",
-    "skins/",
-    "thems/",
-  ],  
+    "skins/"
+  ],
   "license": "MIT",
   "dependencies": {
-    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
-    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master",
-    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master"
+    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
   },
   "skylarkjs": {
     "build": {
@@ -38,7 +36,7 @@
         "initOnLoad": true
       }
     }
-  },  
+  },
   "engines": {
     "node": ">=0.10.1"
   }
